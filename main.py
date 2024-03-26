@@ -11,4 +11,3 @@ for name in names:
     with open(f"Output/ReadyToSend/letter_for_{name}", mode="w") as letter:
         new_letter = list_blueprint.replace("[name]", name)
         letter.write(new_letter)
-
